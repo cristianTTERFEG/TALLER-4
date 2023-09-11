@@ -8,6 +8,14 @@
 <body>
     <h1>Ejemplo Formulario # 1</h1>
 
-    <form action=""></form>
+    <form action="">
+        NAME <input type="text" pattern="[A-Za-z ]{1,60}" size="40" autofocus>
+        COMPANY <input type="text" pattern="\d{3}-\d{3} \(\d{3}\)" size="40"><br>
+        TELEPHONE <input type="text" pattern="\+\d{2}-\d{3}-\d{9}" size="33">
+        EMAIL <input type="email" maxlength="30" size="40"><br>
+        <textarea cols="80" rows="8"> LEAVE A MESSAGE</textarea><br><br>
+
+        <input type="submit" value="SEND">
+    </form>
 </body>
 </html>
