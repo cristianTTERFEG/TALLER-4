@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+</head>
+<body>
+    <h1>Ejemplo Formulario # 2</h1>
+
+    <form action="">
+        <h1>Registration Form</h1>
+
+        User id: <input type="text" pattern="[A-Z a-z 0-9].{5,12}" required><br><br>
+        Password: <input type="password" pattern=".{7,12}" required><br><br>
+        Name: <input type="text" pattern="[A-z ]*" required><br><br>
+        Adress (optional): <input type="text"><br><br>
+        <label for="">Country</label>
+        <select name="" id="" required>
+            <option value="">(Please select a country)</option>
+            <option value="">Colombia</option>
+            <option value="">Argentina</option>
+            <option value="">Brasil</option>
+            <option value="">Chile</option>
+            <option value="">Bolivia</option>
+            <option value="">Ecuador</option>
+            <option value="">Uruguay</option>
+            <option value="">Paraguay</option>
+            <option value="">Peru</option>
+            <option value="">Venezuela</option>
+        </select><br>
+        ZIP code: <input type="number" pattern="[0-9]*" required><br><br>
+        Email: <input type="email" required><br><br>
+        Sex: <input type="radio" name="Sex" required>Male <input type="radio" name="Sex" required>Female <br><br>
+        Lenguage: <input type="checkbox" checked required>English <input type="checkbox">Non English <br><br>
+        About: <br>
+        <textarea cols="30" rows="10"></textarea><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit">
+    </form>
+</body>
+</html>
